@@ -65,3 +65,34 @@ color: #181818;
         font-weight: 400;
         line-height: 30px; 
     }
+    .about-container{  margin: 130px 0px; padding: 130px ;
+        
+ border-radius: 10px;
+background-color: #FFF8F3;
+    }
+    .about-head{
+        color: #181818;
+text-align: center;
+font-size: 35px;
+font-weight: 700;
+    }
+    .ab-para{color:  #757575;
+        text-align: center;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 30px;}
+        main{
+            width: 1140px;
+height: 550px; margin: 0px auto;
+        }
+        .about-info-container{
+            display: flex; justify-content: space-around;
+        }
+        .about-info{
+            text-align: center;
+            font-size: 20px;
+            font-weight: 400;
+            line-height: 30px;
+            
+        }
+        .info-title{color: #757575}
