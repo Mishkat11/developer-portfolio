@@ -1,4 +1,5 @@
-*{margin: 0%;}
+
+/* header part  */
 body{
     font-family: 'Open Sans', sans-serif;
 }
@@ -11,7 +12,7 @@ font-weight: 800; margin-left: 200px;
     color: #FD6E0A;
 }
 nav{ display: flex;
-    margin-top: 50px;
+    /* margin-top: 50px; */
 justify-content: space-between;
 align-items: center;}
 
@@ -32,4 +33,35 @@ nav a{text-decoration: none;
 font-style: normal;
 font-weight: 700;
 color: white;
+    }
+    .header{background-color: #FFF8F3; background-image: url(../images/header_bg.png); background-repeat: no-repeat; background-position: bottom right;}
+    /* Banner section */
+    .banner-head{
+        display: flex; padding: 30px 30px 0px 150px; justify-content: space-between;
+        align-items: center;
+    }
+    .banner-s{
+        max-width: 500px;
+    }
+    
+    
+    .profile-pic{
+        width: 500px;
+height: 600x;
+
+    }
+    .s-head{
+        font-size: 45px; color: #474747;
+margin-bottom: 0px;
+
+    }
+    .sec-head{  margin-top: 5px; margin-bottom: 0%;
+        font-size: 80px;
+
+color: #181818;
+    }
+    .description{
+        margin-top: 20px;  font-size: 18px; color: #474747;
+        font-weight: 400;
+        line-height: 30px; 
     }
