@@ -1,9 +1,10 @@
-*{margin: 0%;}
+/* *{margin: 0%;} */
 /* header part  */
 body{
     font-family: 'Open Sans', sans-serif;
 }
-main section{ margin-top: 130px;}
+main section{ margin-top: 130px;} 
+
 .nav-title{
     color: #181818;
 font-size: 45px;
@@ -143,5 +144,37 @@ font-size: 16px;
 font-weight: 400; margin-top: 0px;
                 }
 .download-btn{
-    text-align: center; margin-top: 50px;
+    text-align: center; margin-top: 50px; 
 }
+footer{
+    /* width: 1600px; */
+    height: 780px;
+    background-color:  #FFF8F3;  bottom:0;
+    width:100%; display: flex;
+    gap: 100px;
+    margin-top: 100px;
+    /* padding: 130px 200px; */
+
+}
+.footer-title{
+    color: #181818;
+text-align: center;
+font-size: 35px;
+font-weight: 700;
+}
+main{
+    height: 270vh;
+}
+footer-column{
+    width: 50px;
+}
+.contact input[type="text"], .contact input[type=email],
+ textarea{
+    display: block;
+    margin-bottom: 25px;
+    padding: 13px 35px;
+    color:#757575; border: none;
+    border-radius: 5px; background:#FFF;
+    width: 100%;
+}
+    
